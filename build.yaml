@@ -19,6 +19,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: sofle_left
+    shield: dactyl_left
   - board: seeeduino_xiao_ble
-    shield: sofle_right
+    shield: dactyl_right

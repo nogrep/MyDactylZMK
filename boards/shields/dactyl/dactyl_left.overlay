@@ -38,7 +38,6 @@
      compatible = "zmk,keymap-sensors";
      sensors = <&mlego_encoder>;
    };
-*/
 };
 
 &xiao_spi {

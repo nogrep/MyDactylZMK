@@ -48,7 +48,6 @@
     status = "okay";
     gpio-controller;
     spi-max-frequency = <200000>;
-    #gpio-cells = <1>;
     reg = <0>;
     label = "4HC595";
     ngpios = <16>;

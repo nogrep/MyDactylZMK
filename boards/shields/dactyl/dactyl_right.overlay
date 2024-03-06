@@ -1,7 +1,7 @@
 #include "dactyl.dtsi"
 
 &default_transform { // The matrix transform for this board is 6 columns over because the left half is 6 columns wide according to the matrix.
-    col-offset = <6>;7
+    col-offset = <6>;
 };
 
 #include <dt-bindings/zmk/matrix_transform.h>
@@ -36,7 +36,6 @@
 
    sensors {
      compatible = "zmk,keymap-sensors";
-     sensors = <&mlego_encoder>;
    };
 };
 

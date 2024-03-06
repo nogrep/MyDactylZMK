@@ -36,7 +36,6 @@
 
    sensors {
      compatible = "zmk,keymap-sensors";
-     sensors = <&mlego_encoder>;
    };
 };
 

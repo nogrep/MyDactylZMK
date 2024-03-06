@@ -19,8 +19,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: corne_left
+    shield: dactyl_left
   - board: seeeduino_xiao_ble
-    shield: corne_right
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
+    shield: dactyl_right

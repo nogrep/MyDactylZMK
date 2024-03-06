@@ -31,10 +31,6 @@
                  ,<&xiao_d 4(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
                  ;
    };
-
-   sensors {
-     compatible = "zmk,keymap-sensors";
-   };
 };
 
 &xiao_spi {

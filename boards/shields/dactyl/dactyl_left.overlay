@@ -8,8 +8,6 @@
 
 
 / {
-   model = "dactyl";
-   compatible = "dactyl", "seeduino,xiao_ble";
 
    chosen {
      zmk,kscan = &kscan;

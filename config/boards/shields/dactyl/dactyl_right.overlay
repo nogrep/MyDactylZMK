@@ -17,12 +17,12 @@
      compatible = "zmk,kscan-gpio-matrix";
      label = "kscan";
      diode-direction = "col2row";
-     col-gpios =   <&shift_reg 7 (GPIO_ACTIVE_HIGH)>
-                 , <&shift_reg 5 (GPIO_ACTIVE_HIGH)>
-                 , <&shift_reg 6 (GPIO_ACTIVE_HIGH)>
-                 , <&shift_reg 4 (GPIO_ACTIVE_HIGH)>
-                 , <&shift_reg 3 (GPIO_ACTIVE_HIGH)>
-                 , <&shift_reg 2 (GPIO_ACTIVE_HIGH)>
+     col-gpios = <&xiao_d 6(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+                 ,<&xiao_d 10(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+                 ,<&xiao_d 9(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+                 ,<&xiao_d 8(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+                 ,<&xiao_d 7(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+                 ,<&gpio1 10 7(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
                  ;
      row-gpios = <&xiao_d 0(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
                  ,<&xiao_d 1(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -32,24 +32,4 @@
                  ,<&xiao_d 5(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
                  ;
    };
-};
-
-&xiao_spi {
-  status = "okay";
-
-  cs-gpios = <&xiao_d 7 GPIO_ACTIVE_LOW>;
-  shift_reg: 595@0 {
-    compatible = "zmk,gpio-595";
-    status = "okay";
-    gpio-controller;
-    spi-max-frequency = <200000>;
-    #gpio-cells = <2>;
-    reg = <0>;
-    label = "4HC595";
-    ngpios = <16>;
-  };
-};
-
-&xiao_serial { 
-  status = "disabled"; 
 };

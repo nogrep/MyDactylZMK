@@ -1,6 +1,8 @@
 #include "dactyl.dtsi"
 
-
+&default_transform { // The matrix transform for this board is 6 columns over because the left half is 6 columns wide according to the matrix.
+    col-offset = <6>;
+};
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
@@ -15,11 +17,11 @@
      compatible = "zmk,kscan-gpio-matrix";
      label = "kscan";
      diode-direction = "col2row";
-     col-gpios = <&xiao_d 6(GPIO_ACTIVE_HIGH)>
-                 ,<&xiao_d 10(GPIO_ACTIVE_HIGH)>
+     col-gpios = <&xiao_d 10(GPIO_ACTIVE_HIGH)>
                  ,<&xiao_d 9(GPIO_ACTIVE_HIGH)>
                  ,<&xiao_d 8(GPIO_ACTIVE_HIGH)>
                  ,<&xiao_d 7(GPIO_ACTIVE_HIGH)>
+                 ,<&xiao_d 6(GPIO_ACTIVE_HIGH)>
                  ,<&gpio1 10(GPIO_ACTIVE_HIGH)>
                  ;
      row-gpios = <&xiao_d 0(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>

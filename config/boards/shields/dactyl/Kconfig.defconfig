@@ -1,15 +1,18 @@
 if SHIELD_DACTYL_LEFT
 
     config ZMK_KEYBOARD_NAME
-        default "DM(Left)"
-        
+        default "DM Left"
+
+    config ZMK_BATTERY_REPORTING
+        default y
+
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
         default y
 endif
 
 if SHIELD_DACTYL_RIGHT
     config ZMK_KEYBOARD_NAME
-        default "DM(Right)"
+        default "DM Right"
 
 
 endif
@@ -21,4 +24,5 @@ if SHIELD_DACTYL_LEFT || SHIELD_DACTYL_RIGHT
 
     config ZMK_SPLIT
         default y
+        
 endif

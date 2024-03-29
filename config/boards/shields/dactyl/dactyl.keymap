@@ -19,8 +19,8 @@
 / {
      macros {
         lshiftAlt: lshiftAlt {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
             bindings
                 = <&macro_press &kp LSHFT &kp LALT>
                 , <&macro_pause_for_release>
@@ -29,8 +29,8 @@
         };
 
         ctrlShiftAltWin: ctrlShiftAltWin {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
             bindings
                 = <&macro_press &kp LCTRL &kp LSHFT &kp LALT &kp LGUI>
                 , <&macro_pause_for_release>
@@ -106,7 +106,7 @@
                 &mt LSHIFT ESC &mt LSHIFT Z  &kp X    &kp C          &kp V    &kp B                                         &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSLH
                                &kp INS       &kp LGUI &mt LALT BSPC  &kp SPACE                                              &lt LWR RET   &kp BSPC  &to LWR &to RSE
                                                                      &kp RIGHT  &kp LEFT                          &kp DOWN  &kp UP
-                                                                     &none      &kp DEL                           &kp LGUI  &kp LSHIFTe
+                                                                     &none      &kp DEL                           &kp LGUI  &kp LSHIFT
             >;
         };
     };

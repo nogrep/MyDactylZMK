@@ -76,9 +76,9 @@
 
         lower_layer {
             bindings = < 
-                &trans         &trans &trans &trans   &trans         &bootloader                                            &bootloader  &trans   &trans   &trans &trans    &trans
-                &lt LWR TAB    &kp Q         &kp W    &kp E          &kp R    &kp T                                         &kp Y  &kp U  &kp I     &kp O   &kp P    &kp EQUAL
-                &mt LCTRL RET  &kp A         &kp S    &kp D          &kp F    &kp G                                         &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+                &trans         &trans        &trans   &trans         &trans   &bootloader                                   &bootloader  &trans   &trans   &trans &trans    &trans
+                &trans         &kp Q         &kp W    &kp E          &kp R    &kp T                                         &kp Y  &kp U  &kp I     &kp O   &kp P    &kp EQUAL
+                &trans         &kp A         &kp S    &kp D          &kp F    &kp G                                         &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp SQT
                 &mt LSHIFT ESC &mt LSHIFT Z  &kp X    &kp C          &kp V    &kp B                                         &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSLH
                                &kp INS       &kp LGUI &mt LALT BSPC  &kp SPACE                                              &lt LWR RET   &kp BSPC  &to LWR &to RSE
                                                                      &kp RIGHT  &kp LEFT                          &kp DOWN  &kp UP
@@ -88,25 +88,25 @@
 
         raise_layer {
             bindings = <
-                &trans  &trans &trans &trans &trans &trans                         &bootloader &trans &trans &trans &trans &kp K_VOL_UP
-                &trans  &trans &trans &trans &trans &trans                              &trans &trans &trans &trans &trans &kp K_VOL_UP
-                &trans  &trans &trans &trans &trans &trans                              &trans &trans &trans &trans &trans &kp K_VOL_DN
-                &trans  &trans &trans &trans &trans &trans                              &trans &trans &trans &trans &trans &kp K_MUTE
-                               &trans &trans &trans &trans                              &trans &trans &trans &trans
-                                                    &mo ADJ &trans               &trans &trans
-                                                    &trans  &trans               &trans &trans
+                 &trans         &trans        &trans   &trans         &trans   &bootloader                                   &bootloader  &trans   &trans   &trans &trans    &trans
+                &trans         &kp Q         &kp W    &kp E          &kp R    &kp T                                         &kp Y  &kp U  &kp I     &kp O   &kp P    &kp EQUAL
+                &trans         &kp A         &kp S    &kp D          &kp F    &kp G                                         &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+                &mt LSHIFT ESC &mt LSHIFT Z  &kp X    &kp C          &kp V    &kp B                                         &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSLH
+                               &kp INS       &kp LGUI &mt LALT BSPC  &kp SPACE                                              &lt LWR RET   &kp BSPC  &to LWR &to RSE
+                                                                     &kp RIGHT  &kp LEFT                          &kp DOWN  &kp UP
+                                                                     &none      &kp DEL                           &kp LGUI  &kp LSHIFT
             >;
         };
 
         adjust_layer {
             bindings = <
-                &none &bt BT_SEL 1 &out OUT_USB &none &none  &none                     &none       &none  &none &none &none &none
-                &none &bt BT_SEL 1 &out OUT_USB &none &none  &none                     &none       &none  &none &none &none &none
-                &none &bt BT_SEL 2 &none        &none &none  &none                    &none       &none  &none &none &none &none
-                &none &bt BT_SEL 3 &bt BT_CLR   &none &none  &bootloader              &bootloader &none  &none &none &none &none
-                                   &none        &none &none  &none                    &none       &none  &none &none
-                                                             &none  &none       &none &none
-                                                             &none  &none       &none &none
+                 &trans         &trans        &trans   &trans         &trans   &bootloader                                   &bootloader  &trans   &trans   &trans &trans    &trans
+                &trans         &kp Q         &kp W    &kp E          &kp R    &kp T                                         &kp Y  &kp U  &kp I     &kp O   &kp P    &kp EQUAL
+                &trans         &kp A         &kp S    &kp D          &kp F    &kp G                                         &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+                &mt LSHIFT ESC &mt LSHIFT Z  &kp X    &kp C          &kp V    &kp B                                         &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSLH
+                               &kp INS       &kp LGUI &mt LALT BSPC  &kp SPACE                                              &lt LWR RET   &kp BSPC  &to LWR &to RSE
+                                                                     &kp RIGHT  &kp LEFT                          &kp DOWN  &kp UP
+                                                                     &none      &kp DEL                           &kp LGUI  &kp LSHIFTe
             >;
         };
     };

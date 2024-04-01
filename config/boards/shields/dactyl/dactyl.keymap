@@ -81,7 +81,7 @@
                 &trans         &kp PLUS      &kp N7   &kp N8         &kp N9   &kp MINUS                                     &kp AMPS      &kp LPAR  &kp RPAR  &kp LBRC  &kp RBRC  &kp DLLR
                 &trans         &kp DOT       &kp N4   &kp N5         &kp N6   &kp STAR                                      &kp HASH      &kp SQT   &kp DQT   &kp QMARK &kp PRCNT &kp PIPE
                 &trans         &kp N0        &kp N1   &kp N2         &kp N3   &kp SLASH                                     &kp EXCL      &kp LBKT  &kp RBKT  &kp GRAVE &kp AT    &kp BSLH
-                               &trans        &trans   &trans         &trans                                                 &kp LT        &kp GT    &to LWR   &to RSE
+                               &trans        &trans   &trans         &trans                                                 &kp LT        &kp GT    &to QW   &tog ADJ
                                                                      &trans   &trans                              &trans    &trans
                                                                      &trans   &trans                              &trans    &kp CARET
             >;
@@ -93,7 +93,7 @@
                 &trans         &kp PIPE      &kp F7   &kp F8         &kp F9        &kp LANG1                                     &kp LANG2     &kp PG_UP &kp HOME  &kp END   &kp PG_DN &kp LC(LG(LEFT))
                 &trans         &kp C_VOL_UP  &kp F4   &kp F5         &kp F6        &kp C_MUTE                                    &kp LEFT      &kp UP    &kp DOWN  &kp RIGHT &kp STAR  &kp RALT
                 &trans         &kp C_VOL_DN  &kp F1   &kp F2         &kp F3        &kp LC(Z)                                     &none         &kp F10   &kp F11   &kp F12   &none     &kp LC(LG(RIGHT))
-                                             &kp INS  &kp LGUI       &kp LC(C)     &kp LC(V)                                     &trans        &trans    &trans    &trans
+                                             &kp INS  &kp LGUI       &kp LC(C)     &kp LC(V)                                     &trans        &trans    &tog RSE    &to QW
                                                                      &trans        &trans                               &trans   &trans
                                                                      &kp LC(X)     &kp LC(Z)                            &trans   &trans
             >;

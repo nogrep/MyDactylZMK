@@ -65,35 +65,35 @@
 
         default_layer {
             bindings = <
-                &kp CAPS       &kp N1        &kp N2   &kp N3         &kp N4   &kp N5                                        &kp N6        &kp N7 &kp N8    &kp N9  &kp N0   &bt BT_CLR
-                &lt RSE TAB    &kp Q         &kp W    &kp E          &kp R    &kp T                                         &kp Y         &kp U  &kp I     &kp O   &kp P    &kp EQUAL
-                &mt LCTRL RET  &kp A         &kp S    &kp D          &kp F    &kp G                                         &kp H         &kp J  &kp K     &kp L   &lshiftAltHoldTap SEMI SEMI &ctrlShiftAltWinHoldTap COLON COLON
-                &mt LSHIFT ESC &mt LSHIFT Z  &kp X    &kp C          &kp V    &kp B                                         &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &kp UNDER
-                               &kp INS       &kp LGUI &mt LALT BSPC  &kp SPACE                                              &lt RSE RET   &kp BSPC  &tog RSE &tog ADJ
-                                                                     &kp RIGHT  &kp LEFT                          &kp DOWN  &kp UP
-                                                                     &mo LWR    &lt ADJ DEL                       &kp LGUI  &kp LSHIFT
+                &caps_word     &kp N1        &kp N2   &kp N3         &kp N4   &kp N5                                        &kp N6        &kp N7 &kp N8    &kp N9  &kp N0   &bt BT_CLR
+                &lt RSE TAB    &kp Q         &kp W    &kp E          &kp R    &kp T                                         &kp Y         &kp U  &kp I     &kp O   &kp P    &kp LBKT
+                &mt LCTRL RET  &kp A         &kp S    &kp D          &kp F    &kp G                                         &kp H         &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+                &mt LSHIFT ESC &mt LSHIFT Z  &kp X    &kp C          &kp V    &kp B                                         &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &kp LANG5
+                               &kp INS       &kp LGUI &kp SPACE      &mt LALT BSPC                                          &lt RSE RET   &kp BSPC  &kp UP &kp DOWN
+                                                                     &sk LALT  &kp BSPC                           &kp LEFT  &kp RIGHT
+                                                                     &mo LWR   &lt ADJ DEL                        &kp LGUI  &sk LSHIFT
             >;
         };
 
         lower_layer {
             bindings = < 
                 &trans         &trans        &trans   &trans         &trans   &trans                                        &trans        &trans    &trans    &trans    &trans    &trans
-                &trans         &kp PLUS      &kp N7   &kp N8         &kp N9   &kp MINUS                                     &kp AMPS      &kp LPAR  &kp RPAR  &kp LBRC  &kp RBRC  &kp DLLR
-                &trans         &kp DOT       &kp N4   &kp N5         &kp N6   &kp STAR                                      &kp HASH      &kp SQT   &kp DQT   &kp QMARK &kp PRCNT &kp PIPE
-                &trans         &kp N0        &kp N1   &kp N2         &kp N3   &kp SLASH                                     &kp EXCL      &kp LBKT  &kp RBKT  &kp GRAVE &kp AT    &kp BSLH
-                               &trans        &trans   &trans         &trans                                                 &kp LT        &kp GT    &to QW   &tog ADJ
+                &kp PLUS       &kp COLON     &kp N7   &kp N8         &kp N9   &kp MINUS                                     &kp CARET     &kp STAR  &kp LPAR  &kp RBRC  &kp PIPE  &kp DLLR
+                &trans         &kp DOT       &kp N4   &kp N5         &kp N6   &kp DQT                                       &kp HASH      &kp AMPS  &kp AT    &kp QMARK &kp PRCNT &kp AT
+                &trans         &kp N0        &kp N1   &kp N2         &kp N3   &kp DLLR                                      &kp EXCL      &kp RBKT  &kp BSLH  &kp GRAVE &kp AT    &kp UNDERSCORE
+                               &trans        &trans   &trans         &trans                                                 &kp LT        &kp GT    &trans    &trans
                                                                      &trans   &trans                              &trans    &trans
-                                                                     &trans   &trans                              &trans    &kp CARET
+                                                                     &trans   &trans                              &kp EQUAL &trans 
             >;
         };
 
         raise_layer {
             bindings = < 
-                &trans         &trans        &trans   &trans         &trans        &trans                                        &trans        &trans    &trans    &trans    &trans    &trans
-                &trans         &kp PIPE      &kp F7   &kp F8         &kp F9        &kp LANG1                                     &kp LANG2     &kp PG_UP &kp HOME  &kp END   &kp PG_DN &kp LC(LG(LEFT))
-                &trans         &kp C_VOL_UP  &kp F4   &kp F5         &kp F6        &kp C_MUTE                                    &kp LEFT      &kp UP    &kp DOWN  &kp RIGHT &kp STAR  &kp RALT
-                &trans         &kp C_VOL_DN  &kp F1   &kp F2         &kp F3        &kp LC(Z)                                     &none         &kp F10   &kp F11   &kp F12   &none     &kp LC(LG(RIGHT))
-                                             &kp INS  &kp LGUI       &kp LC(C)     &kp LC(V)                                     &trans        &trans    &tog RSE    &to QW
+                &trans         &trans        &trans   &trans         &trans        &trans                                        &trans        &trans    &trans    &trans    &trans      &trans
+                &trans         &kp PIPE      &kp F7   &kp F8         &kp F9        &kp LANG1                                     &kp LANG2     &kp PG_UP &kp HOME  &kp END   &kp PG_DN   &kp LC(LG(LEFT))
+                &trans         &kp C_VOL_UP  &kp F4   &kp F5         &kp F6        &kp C_MUTE                                    &kp LEFT      &kp DOWN  &kp UP    &kp RIGHT &kp K_CMENU &kp RALT
+                &trans         &kp C_VOL_DN  &kp F1   &kp F2         &kp F3        &kp LC(Z)                                     &none         &kp F10   &kp F11   &kp F12   &none       &kp LC(LG(RIGHT))
+                                             &kp INS  &kp LGUI       &kp LC(C)     &kp LC(V)                                     &trans        &trans    &trans    &trans
                                                                      &trans        &trans                               &trans   &trans
                                                                      &kp LC(X)     &kp LC(Z)                            &trans   &trans
             >;
@@ -101,13 +101,13 @@
 
         adjust_layer {
             bindings = <
-                &none          &trans            &trans     &trans         &trans            &bootloader                                   &bootloader  &trans &trans    &trans &trans     &trans
-                &trans         &kp LS(LG(S))     &kp PG_DN  &kp UP         &kp PG_UP         &kp LC(LS(LG(4)))                             &kp MINUS    &kp N7 &kp N8    &kp N9  &kp PLUS  &trans
-                &trans         &trans            &kp LEFT   &kp DOWN       &kp RIGHT         &trans                                        &kp STAR     &kp N4 &kp N5    &kp N6  &kp DOT   &trans
+                &none          &trans            &trans     &trans         &trans            &trans                                        &trans       &trans &trans    &trans &trans     &trans
+                &trans         &kp LS(LG(S))     &kp PG_DN  &kp UP         &kp PG_UP         &kp LC(LS(LG(4)))                             &kp MINUS    &kp N7 &kp N8    &kp N9  &kp COLON &trans
+                &trans         &trans            &kp LEFT   &kp DOWN       &kp RIGHT         &trans                                        &kp DQT      &kp N4 &kp N5    &kp N6  &kp DOT   &trans
                 &trans         &kp LC(DOWN)      &kp LC(UP) &kp C_PREV     &kp C_PLAY_PAUSE  &kp C_NEXT                                    &kp FSLH     &kp N1 &kp N2    &kp N3  &kp SPACE &trans
-                                                 &trans     &trans         &trans            &trans                                        &trans       &trans &trans    &trans
-                                                                           &trans            &bootloader                      &bootloader  &trans
-                                                                           &trans            &trans                           &trans       &trans
+                                                 &trans     &trans         &trans            &trans                                        &kp RET      &kp N0 &trans    &trans
+                                                                           &bootloader       &trans                           &trans       &trans
+                                                                           &bt BT_CLR        &trans                           &trans       &trans
             >;
         };
     };

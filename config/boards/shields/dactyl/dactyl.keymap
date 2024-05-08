@@ -73,7 +73,7 @@
                 &mt LCTRL RET  &kp A         &kp S    &kp D          &kp F    &kp G                                         &kp H         &kp J  &kp K     &kp L   &kp SEMI &kp SQT
                 &mt LSHIFT ESC &mt LSHIFT Z  &kp X    &kp C          &kp V    &kp B                                         &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &kp LC(SPACE)
                                &kp INS       &kp LGUI &kp SPACE      &mt LALT BSPC                                          &lt RSE RET   &kp BSPC  &kp UP &kp DOWN
-                                                                     &sk BSPC  &kp LALT                           &kp LEFT  &kp RIGHT
+                                                                     &sk LALT  &kp BSPC                           &kp LEFT  &kp RIGHT
                                                                      &mo LWR   &lt ADJ DEL                        &kp LGUI  &sk LSHIFT
             >;
         };

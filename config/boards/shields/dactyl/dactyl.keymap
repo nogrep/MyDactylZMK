@@ -68,24 +68,24 @@
 
         default_layer {
             bindings = <
-                &caps_word     &kp N1        &kp N2   &kp N3         &kp N4   &kp N5                                        &kp N6        &kp N7 &kp N8    &kp N9  &kp N0   &tog MAC
-                &lt RSE TAB    &kp Q         &kp W    &kp E          &kp R    &kp T                                         &kp Y         &kp U  &kp I     &kp O   &kp P    &kp UNDERSCORE
-                &mt LCTRL RET  &kp A         &kp S    &kp D          &kp F    &kp G                                         &kp H         &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-                &mt LSHIFT ESC &mt LSHIFT Z  &kp X    &kp C          &kp V    &kp B                                         &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &kp LC(SPACE)
-                               &kp INS       &kp LGUI &kp SPACE      &mt LALT BSPC                                          &lt RSE RET   &kp BSPC  &kp UP &kp DOWN
-                                                                     &kp BSPC  &sk LALT                           &kp LEFT  &kp RIGHT
-                                                                     &mo LWR   &lt ADJ DEL                        &kp LGUI  &sk LSHIFT
+                &caps_word     &kp DLLR      &kp COLON  &kp MINUS      &kp DQT    &kp PLUS                                      &kp CARET     &kp INT_YEN &kp LS(INT_YEN)   &kp CARET  &kp LS(INT1)   &tog MAC
+                &lt RSE TAB    &kp Q         &kp W      &kp E          &kp R      &kp T                                         &kp Y         &kp U       &kp I             &kp O      &kp P          &kp UNDERSCORE
+                &mt LCTRL RET  &kp A         &kp S      &kp D          &kp F      &kp G                                         &kp H         &kp J       &kp K             &kp L      &kp SEMI       &kp SQT
+                &mt LSHIFT ESC &mt LSHIFT Z  &kp X      &kp C          &kp V      &kp B                                         &kp N         &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp LC(SPACE)
+                               &kp INS       &kp LGUI   &kp SPACE      &mt LALT BSPC                                            &lt RSE RET   &kp BSPC    &kp UP            &kp DOWN
+                                                                       &kp BSPC   &sk LALT                           &kp LEFT  &kp RIGHT
+                                                                       &mo LWR    &lt ADJ DEL                        &kp LGUI  &sk LSHIFT
             >;
         };
 
         mac_layer {
             bindings = <
-                &caps_word     &kp N1        &kp N2   &kp N3         &kp N4   &kp N5                                        &kp N6        &kp N7 &kp N8    &kp N9  &kp N0   &tog MAC
-                &lt RSE TAB    &kp Q         &kp W    &kp E          &kp R    &kp T                                         &kp Y         &kp U  &kp I     &kp O   &kp P    &kp UNDERSCORE
-                &mt LGUI RET   &kp A         &kp S    &kp D          &kp F    &kp G                                         &kp H         &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-                &mt LSHIFT ESC &mt LSHIFT Z  &kp X    &kp C          &kp V    &kp B                                         &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &kp LANG5
-                               &kp INS       &kp LCTRL &kp SPACE      &mt LALT BSPC                                          &lt RSE RET   &kp BSPC  &kp UP &kp DOWN
-                                                                     &sk LALT  &kp BSPC                           &kp LEFT  &kp RIGHT
+                &caps_word     &kp DLLR      &kp COLON  &kp MINUS      &kp DQT    &kp PLUS                                      &kp CARET     &kp INT_YEN &kp LS(INT_YEN)   &kp CARET  &kp LS(INT1)   &tog MAC
+                &lt RSE TAB    &kp Q         &kp W      &kp E          &kp R      &kp T                                         &kp Y         &kp U       &kp I             &kp O      &kp P          &kp UNDERSCORE
+                &mt LGUI RET   &kp A         &kp S      &kp D          &kp F      &kp G                                         &kp H         &kp J       &kp K             &kp L      &kp SEMI       &kp SQT
+                &mt LSHIFT ESC &mt LSHIFT Z  &kp X      &kp C          &kp V      &kp B                                         &kp N         &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp LC(SPACE)
+                               &kp INS       &kp LCTRL  &kp SPACE      &mt LALT BSPC                                            &lt RSE RET   &kp BSPC    &kp UP            &kp DOWN
+                                                                     &kp BSPC  &sk LALT                           &kp LEFT  &kp RIGHT
                                                                      &mo LWR   &lt ADJ DEL                        &kp LCTRL &sk LSHIFT
             >;
         };

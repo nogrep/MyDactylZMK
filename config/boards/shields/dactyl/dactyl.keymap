@@ -73,9 +73,9 @@
                 &lt LWR TAB    &kp Q         &kp W      &kp E          &kp R      &kp T                                         &kp Y         &kp U       &kp I             &kp O      &kp P          &kp UNDERSCORE
                 &mt LCTRL RET  &kp A         &kp S      &kp D          &kp F      &kp G                                         &kp H         &kp J       &kp K             &kp L      &kp SEMI       &kp SQT
                 &mt LSHIFT ESC &kp Z         &kp X      &kp C          &kp V      &kp B                                         &kp N         &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp LS(INT1)
-                               &kp INS       &kp LC(SPACE)             &mo RSE    &kp SPACE                                     &lt RSE RET   &kp BSPC    &kp DOWN          &kp UP
+                               &kp INS       &kp LC(SPACE)             &kp LALT   &kp SPACE                                     &lt RSE RET   &kp BSPC    &kp DOWN          &kp UP
                                                                        &kp BSPC   &lt ADJ DEL                                   &kp LEFT      &kp RIGHT
-                                                                       &kp LALT   &kp LGUI                                      &kp LGUI      &sk LSHIFT
+                                                                       &mo RSE    &kp LGUI                                      &kp LGUI      &sk LSHIFT
             >;
         };
 
@@ -85,9 +85,9 @@
                 &lt RSE TAB    &kp Q         &kp W      &kp E          &kp R      &kp T                                         &kp Y         &kp U       &kp I             &kp O      &kp P          &kp UNDERSCORE
                 &mt LGUI RET   &kp A         &kp S      &kp D          &kp F      &kp G                                         &kp H         &kp J       &kp K             &kp L      &kp SEMI       &kp SQT
                 &mt LSHIFT ESC &kp Z         &kp X      &kp C          &kp V      &kp B                                         &kp N         &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp LS(INT1)
-                               &kp INS       &kp LC(SPACE)             &mo RSE    &kp SPACE                                     &lt RSE RET   &kp BSPC    &kp DOWN          &kp UP
+                               &kp INS       &kp LC(SPACE)             &kp LALT   &kp SPACE                                     &lt RSE RET   &kp BSPC    &kp DOWN          &kp UP
                                                                        &kp BSPC   &lt ADJ DEL                                   &kp LEFT      &kp RIGHT
-                                                                       &kp LALT   &kp LCTRL                                     &kp LCTRL     &sk LSHIFT
+                                                                       &mo RSE    &kp LCTRL                                     &kp LCTRL     &sk LSHIFT
             >;
         };
 

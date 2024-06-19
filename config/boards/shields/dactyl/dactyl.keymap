@@ -105,13 +105,13 @@
 
         raise_layer {
             bindings = < 
-                &trans         &kp LG(Z)    &kp LG(C) &kp LG(V)      &kp LG(A)     &trans                                        &trans       &trans     &trans      &trans        &trans         &trans
-                &trans         &kp LC(Z)    &kp F7    &kp F8         &kp F9        &kp LANG1                                     &kp LANG2    &kp PG_UP  &kp HOME    &kp END       &kp PG_DN      &kp LC(LG(LEFT))
-                &trans         &kp LC(V)    &kp F4    &kp F5         &kp F6        &kp LC(X)                                     &kp LEFT     &kp DOWN   &kp UP      &kp RIGHT     &kp K_CMENU    &kp RALT
-                &trans         &kp LC(C)    &kp F1    &kp F2         &kp F3        &kp LC(A)                                     &none        &kp F10    &kp F11     &kp F12       &none          &kp LC(LG(RIGHT))
-                               &trans    &trans                      &trans        &trans                                        &trans       &trans     &trans      &trans
-                                                                     &trans        &trans                                        &trans       &trans
-                                                                     &trans        &trans                                        &trans       &trans
+                &trans         &kp LG(Z)       &kp LG(C) &kp LG(V)      &kp LG(A)     &trans                                        &trans       &trans     &trans      &trans        &trans         &trans
+                &trans         &kp C_MUTE      &kp F7    &kp F8         &kp F9        &kp LANG1                                     &kp LANG2    &kp PG_UP  &kp HOME    &kp END       &kp PG_DN      &kp LC(LG(LEFT))
+                &trans         &kp C_VOL_UP    &kp F4    &kp F5         &kp F6        &kp LC(A)                                     &kp LEFT     &kp DOWN   &kp UP      &kp RIGHT     &kp K_CMENU    &kp RALT
+                &trans         &kp C_VOL_DN    &kp F1    &kp F2         &kp F3        &kp LC(Y)                                     &none        &kp F10    &kp F11     &kp F12       &none          &kp LC(LG(RIGHT))
+                               &trans          &trans                   &trans        &kp LC(Z)                                     &trans       &trans     &trans      &trans
+                                                                        &trans        &kp LC(V)                                     &trans       &trans
+                                                                        &kp LC(C)     &kp LC(X)                                     &trans       &trans
             >;
         };
 

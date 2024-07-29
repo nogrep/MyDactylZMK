@@ -11,6 +11,9 @@
 #define GAM 5
 
 
+&lt {
+    tapping-term-ms = <200>;
+};
 
 / {
      macros {

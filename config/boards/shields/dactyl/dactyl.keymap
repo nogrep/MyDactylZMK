@@ -62,9 +62,13 @@
             quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
         };
-        &sk: sk {
-            release-after-ms = <2000>;
-            quick-release;
+
+        skq: sticky_key_quick_release {
+          compatible = "zmk,behavior-sticky-key";
+          #binding-cells = <2>;
+          bindings = <&kp>;
+          release-after-ms = <3000>;
+          quick-release;
         };
     };
 
@@ -79,7 +83,7 @@
                 &mt LSHIFT ESC &kp Z         &kp X      &kp C          &kp V      &kp B                                         &kp N         &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp LS(INT1)
                                &kp INS       &kp LC(SPACE)             &kp BSPC   &kp SPACE                                     &lt LWR RET   &kp BSPC    &kp DOWN          &kp UP
                                                                        &kp BSPC   &lt ADJ DEL                                   &kp LEFT      &kp RIGHT
-                                                                       &mo RSE    &kp LALT                                      &kp LGUI      &sk LSHIFT
+                                                                       &mo RSE    &kp LALT                                      &kp LGUI      &skq LSHIFT
             >;
         };
 
@@ -91,7 +95,7 @@
                 &mt LSHIFT ESC &kp Z         &kp X      &kp C          &kp V      &kp B                                         &kp N         &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp LS(INT1)
                                &kp INS       &kp LC(SPACE)             &kp BSPC   &kp SPACE                                     &lt LWR RET   &kp BSPC    &kp DOWN          &kp UP
                                                                        &kp BSPC   &lt ADJ DEL                                   &kp LEFT      &kp RIGHT
-                                                                       &mo RSE    &kp LALT                                      &kp LCTRL     &sk LSHIFT
+                                                                       &mo RSE    &kp LALT                                      &kp LCTRL     &skq LSHIFT
             >;
         };
 

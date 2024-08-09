@@ -14,7 +14,10 @@
 &lt {
     tapping-term-ms = <200>;
 };
-
+&sk {
+    release-after-ms = <2000>;
+    quick-release;
+};
 / {
      macros {
         lshiftAlt: lshiftAlt {

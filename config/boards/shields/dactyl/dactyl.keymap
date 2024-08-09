@@ -16,7 +16,6 @@
 };
 &sk {
     release-after-ms = <5000>;
-    quick-release;
 };
 / {
      macros {

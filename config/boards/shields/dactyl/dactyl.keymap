@@ -86,7 +86,7 @@
                 &mt LSHIFT ESC &kp Z         &kp X      &kp C          &kp V      &kp B                                         &kp N         &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp LS(INT1)
                                &kp INS       &kp LC(SPACE)             &kp BSPC   &kp SPACE                                     &lt LWR RET   &kp BSPC    &kp DOWN          &kp UP
                                                                        &kp BSPC   &lt ADJ DEL                                   &kp LEFT      &kp RIGHT
-                                                                       &mo RSE    &kp LALT                                      &kp LGUI      &skq LSHIFT
+                                                                       &mo RSE    &kp LALT                                      &kp LGUI      &sk LSHIFT
             >;
         };
 
@@ -98,7 +98,7 @@
                 &mt LSHIFT ESC &kp Z         &kp X      &kp C          &kp V      &kp B                                         &kp N         &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp LS(INT1)
                                &kp INS       &kp LC(SPACE)             &kp BSPC   &kp SPACE                                     &lt LWR RET   &kp BSPC    &kp DOWN          &kp UP
                                                                        &kp BSPC   &lt ADJ DEL                                   &kp LEFT      &kp RIGHT
-                                                                       &mo RSE    &kp LALT                                      &kp LCTRL     &skq LSHIFT
+                                                                       &mo RSE    &kp LALT                                      &kp LCTRL     &sk LSHIFT
             >;
         };
 

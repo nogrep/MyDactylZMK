@@ -98,7 +98,7 @@
                 &kp TAB        &kp Q         &kp W      &kp E          &kp R      &kp T                                         &kp Y         &kp U       &kp I             &kp O      &kp P          &kp LBKT
                 &mt LGUI RET   &kp A         &kp S      &kp D          &kp F      &kp G                                         &kp H         &kp J       &kp K             &kp L      &kp SEMI       &kp SQT
                 &mt LSHIFT ESC &kp Z         &kp X      &kp C          &kp V      &kp B                                         &kp N         &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp LS(INT1)
-                               &kp INS       &kp LC(SPACE)             &tog MAC   &kp SPACE                                     &lt LWR RET   &kp BSPC    &kp DOWN          &kp UP
+                               &kp LANG1     &kp LANG2                 &tog MAC   &kp SPACE                                     &lt LWR RET   &kp BSPC    &kp DOWN          &kp UP
                                                                        &kp BSPC   &lt ADJ DEL                                   &kp LEFT      &kp RIGHT
                                                                        &mo RSE    &kp LALT                                      &kp LCTRL     &sk LSHIFT
             >;
@@ -118,7 +118,7 @@
 
         raise_layer {
             bindings = < 
-                &kp LG(V)      &kp LC(A)         &kp LC(C)        &kp LC(V)      &kp LC(X)         &trans                                      &kp LANG1    &kp LANG2     &trans      &trans        &trans         &tog GAM
+                &kp LG(V)      &kp LC(A)         &kp LC(C)        &kp LC(V)      &kp LC(X)         &trans                                      &kp LANG1    &kp LANG2     &trans      &trans        &trans         &trans
                 &trans         &kp LC(DOWN)      &kp PG_DN        &kp UP         &kp PG_UP         &kp LC(UP)                                  &trans       &kp PG_UP     &kp HOME    &kp END       &kp PG_DN      &kp F12
                 &trans         &kp HOME          &kp LEFT         &kp DOWN       &kp RIGHT         &kp END                                     &kp LEFT     &kp DOWN      &kp UP      &kp RIGHT     &kp K_CMENU    &kp RALT
                 &trans         &kp F1            &kp F2           &kp F3         &kp F4            &kp F5                                      &kp F6       &kp F7        &kp F8      &kp F9        &kp F10        &kp F11
@@ -130,25 +130,25 @@
 
         adjust_layer {
             bindings = <
-                &bt BT_CLR     &bt BT_SEL 0      &bt BT_SEL 1     &bt BT_SEL 2   &bt BT_SEL 3      &bt BT_SEL 4                                &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3 &bt BT_DISC 4  &trans
+                &bt BT_CLR_ALL &bt BT_SEL 0      &bt BT_SEL 1     &bt BT_SEL 2   &bt BT_SEL 3      &bt BT_SEL 4                                &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3 &bt BT_DISC 4  &bt BT_CLR
                 &trans         &kp COLON         &kp N7           &kp N8         &kp N9            &kp MINUS                                   &kp MINUS    &kp N7      &kp N8     &kp N9     &kp COLON     &trans
                 &trans         &kp DOT           &kp N4           &kp N5         &kp N6            &kp DQT                                     &kp DQT      &kp N4      &kp N5     &kp N6     &kp DOT       &trans
                 &trans         &kp N0            &kp N1           &kp N2         &kp N3            &kp FSLH                                    &kp FSLH     &kp N1      &kp N2     &kp N3     &kp SPACE     &trans
                                                  &kp LEFT         &kp RIGHT      &kp DOWN          &kp UP                                      &kp N0       &kp BSPC    &trans     &trans
                                                                                  &bootloader       &trans                                      &trans       &trans
-                                                                                 &trans            &bt BT_CLR_ALL                              &trans       &kp RET
+                                                                                 &trans            &trans                                      &trans       &tog GAM
             >;
         };
 
         gaming_layer {
             bindings = <
-                &kp ESC        &kp N1            &kp N2           &kp N3         &kp N4            &kp N5                         &kp N6        &kp N7      &kp N8            &kp N9     &kp N0         &tog GAM
+                &kp ESC        &kp N1            &kp N2           &kp N3         &kp N4            &kp N5                         &kp N6        &kp N7      &kp N8            &kp N9     &kp N0         &kp MINUS
                 &kp TAB        &kp T             &kp Q            &kp W          &kp E             &kp R                          &kp Y         &kp U       &kp I             &kp O      &kp P          &kp UNDERSCORE
                 &kp LSHIFT     &kp G             &kp A            &kp S          &kp D             &kp F                          &kp H         &kp J       &kp K             &kp L      &kp SEMI       &kp SQT
                 &kp LCTRL      &kp B             &kp Z            &kp X          &kp C             &kp V                          &kp N         &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp LS(INT1)
                                                  &kp C_VOL_DN     &kp C_VOL_UP   &kp RET           &kp SPACE                      &kp RET       &kp BSPC    &kp UP            &kp DOWN
                                                                                  &kp BSPC          &kp DEL                        &kp LEFT      &kp RIGHT
-                                                                                 &mo RSE           &kp LALT                       &kp LGUI      &sk LSHIFT
+                                                                                 &mo RSE           &kp LALT                       &kp LGUI      &tog GAM
             >;
         };
     };

@@ -86,7 +86,7 @@
                 &kp TAB        &kp Q         &kp W      &kp E          &kp R      &kp T                                         &kp Y         &kp U       &kp I             &kp O      &kp P          &kp LBKT
                 &kp LCTRL      &kp A         &kp S      &kp D          &kp F      &kp G                                         &kp H         &kp J       &kp K             &kp L      &kp SEMI       &kp SQT
                 &kp LSHIFT     &kp Z         &kp X      &kp C          &kp V      &kp B                                         &kp N          &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp INT1
-                         &kp LC(LSHIFT)   &kp LANG_ZENKAKUHANKAKU      &kp LGUI        &kp SPACE                                     &kp RET       &kp BSPC    &kp RBKT          &kp BSLH
+                         &kp LC(LSHIFT)   &kp LANG_HANGEUL             &kp LGUI        &kp SPACE                                     &kp RET       &kp BSPC    &kp RBKT          &kp BSLH
                                                                        &kp BSPC        &lt ADJ DEL                                   &kp EQUAL      &kp INT_YEN
                                                                        &lt RSE RET    &kp LALT                                      &kp LGUI      &sk LSHIFT
             >;

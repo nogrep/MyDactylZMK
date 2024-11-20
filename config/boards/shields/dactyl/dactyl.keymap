@@ -86,8 +86,8 @@
                 &kp TAB        &kp Q         &kp W      &kp E          &kp R      &kp T                                         &kp Y         &kp U       &kp I             &kp O      &kp P          &kp LBKT
                 &mt LCTRL RET  &kp A         &kp S      &kp D          &kp F      &kp G                                         &kp H         &kp J       &kp K             &kp L      &kp SEMI       &kp SQT
                 &mt LSHIFT ESC &kp Z         &kp X      &kp C          &kp V      &kp B                                         &kp N         &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp LS(INT1)
-                               &kp INS       &kp LANG2             &tog MAC   &kp SPACE                                     &lt LWR RET   &kp BSPC    &kp LANG3          &kp LANG4
-                                                                       &kp BSPC   &lt ADJ DEL                                   &kp LANG1      &kp LANG5
+                               &kp LC(LSHIFT)       &kp LANG2             &tog MAC   &kp SPACE                                     &lt LWR RET   &kp BSPC    &kp TILDE2          &kp NUHS
+                                                                       &kp BSPC   &lt ADJ DEL                                   &kp LANG1      &kp TILDE
                                                                        &mo RSE    &kp LALT                                      &kp LGUI      &sk LSHIFT
             >;
         };

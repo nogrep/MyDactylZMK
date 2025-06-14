@@ -157,9 +157,9 @@
                 &kp TAB        &kp T             &kp Q            &kp W          &kp E             &kp R                          &kp Y         &kp U       &kp I             &kp O      &kp P          &kp UNDERSCORE
                 &kp LSHIFT     &kp G             &kp A            &kp S          &kp D             &kp F                          &kp H         &kp J       &kp K             &kp L      &kp SEMI       &kp SQT
                 &kp LCTRL      &kp B             &kp Z            &kp X          &kp C             &kp V                          &kp N         &kp M       &kp COMMA         &kp DOT    &kp FSLH       &kp LS(INT1)
-                                                 &kp C_VOL_DN     &kp C_VOL_UP   &kp RET           &kp SPACE                      &kp RET       &kp BSPC    &kp UP            &kp DOWN
+                                                 &kp LEFT         &kp RIGHT      &kp RET           &kp SPACE                      &kp RET       &kp BSPC    &kp UP            &kp DOWN
                                                                                  &kp BSPC          &kp DEL                        &kp LEFT      &kp RIGHT
-                                                                                 &mo RSE           &kp LALT                       &kp LGUI      &tog GAM
+                                                                                 &kp M             &kp LALT                       &kp LGUI      &tog GAM
             >;
         };
     };
